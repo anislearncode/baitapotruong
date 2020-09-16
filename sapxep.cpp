@@ -1,3 +1,8 @@
+/***********************
+HO VA TEN: DANG TRUNG AN
+LOP: 10 TIN
+ITK62
+************************/
 #include <iostream>
 
 using namespace std;
