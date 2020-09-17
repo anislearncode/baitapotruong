@@ -3,10 +3,9 @@
 using namespace std;
 
 int main() {
-    char a;
-    cin >> a;
-    a = a - 32;
-    cout << a << endl;
+    int a, b;
+    cin >> a >> b;
+    cout << a + b + a*b << endl;
 
     system("pause");
     return 0;
