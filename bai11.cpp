@@ -10,7 +10,6 @@ int main() {
     C = (a + b + c)/2;
     S = sqrt(C*(C-a)*(C-b)*(C-c));
     cout << S << endl;
-
-    system("pause");
+    
     return 0;
 }
