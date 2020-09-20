@@ -12,7 +12,7 @@ int main() {
             if (n % i == 0) { //B4.1.1: Nếu n chia hết cho một số i bất kỳ từ 2 tới căn n
                 check=false; //B4.1.1.1: Thì chuyển biến check=true
                 UocNhoNhat = i; //B4.1.1.2: Đặt ước nhỏ nhất bằng i mà số n chia hết cho i(Nhìn B4.1)
-                break; //B4.1.1.3: Dừng vòng lặp, xuống B5
+                break; //B4.1.1.3: Dừng vòng lặp, xuống B5(Nhìn B4.1.1)
             }
         }
     } else check=false; //B4.2: Nếu n<2 thì đặt biến check=false(Nhìn B4 để hiểu rõ hơn)
