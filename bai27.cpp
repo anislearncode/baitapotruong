@@ -22,3 +22,4 @@ int main() {
     system("pause");
     return 0;
 }
+// P/S: Một hợp số không bao giờ được khai báo vì một hợp số luôn có thể tách ra thành tích của các số nguyên tố nhỏ hơn. VD: 1234 = 2x617
