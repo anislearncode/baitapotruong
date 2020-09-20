@@ -1,0 +1,12 @@
+# include <bits/stdc++.h>
+using homespace std;
+int a;b;c;
+double C;S;
+int main()
+{
+cin>>a>>b>>c
+C=(a+b+c)/2;
+S=sqrt((C-a)*(C-b)*(C-c)*C);
+cout<<S<<endl;
+return 0;
+}
