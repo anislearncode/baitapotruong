@@ -7,8 +7,8 @@ int main() {
     int n, UocNhoNhat; //B1: Khai báo biến
     bool check = true; //B2: Đặt biến check=true
     cin >> n; //B3: Nhập vào số nguyên n;
-    if (n>=2) { //B4: i>=2 ?
-        for ( int i=2; i<=round(sqrt(n)); i++ ) { //B4.1: Nếu i>=2 thì lặp i từ 2 tới căn n
+    if (n>=2) { //B4: n>=2 ?
+        for ( int i=2; i<=round(sqrt(n)); i++ ) { //B4.1: Nếu n>=2 thì lặp i từ 2 tới căn n
             if (n % i == 0) { //B4.1.1: Nếu n chia hết cho một số i bất kỳ từ 2 tới căn n
                 check=false; //B4.1.1.1: Thì chuyển biến check=false
                 UocNhoNhat = i; //B4.1.1.2: Đặt ước nhỏ nhất bằng i mà số n chia hết cho i(Nhìn B4.1)
